@@ -1,0 +1,63 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/biz?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    druid:
+#      connection-properties: config.decrypt=true;config.decrypt.key=${publickey}
+#      password: D3DxUcP8ygRHVUD1VXp4I5B2jr+PneMzrC8zXQHY6VOo+I6UUVlWYVcI/tl9tWc0uuRntuMdxObEe/GJTO9ONQ==
+      filter:
+        config:
+          enabled: true
+      initial-size: 10
+      max-active: 30
+      min-idle: 10
+      max-wait: 360
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 5
+      validation-query: select 1
+      validation-query-timeout: 1
+
+    activiti:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/activiti?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 123456
+      maxActive: 20
+      initialSize: 5
+      minIdle: 5
+      maxWait: 60000
+      maxPoolPreparedStatementPerConnectionSize: 20
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      poolPreparedStatements: true
+
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: update
+  redis:
+    database: 0
+    host: 192.168.211.76
+    port: 6379
+  activiti:
+    check-process-definitions: false
+
+
+#publickey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANsBQC6ZeZPzuZT3DR0mnMteTouO8pbkGI6I01uTLWmg9PGCEh8UIWXYCAnDS6jvlwJpwj7VDEPNmm80g991+GkCAwEAAQ==
+
+
+server:
+  port: 9090
+
+debug: true
+#
+#logging:
+#  level: debug
+#  file: /logs/syscxp/biz
+#  config: classpath:logback-spring-dev.xml
+
+

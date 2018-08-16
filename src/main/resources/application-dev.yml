@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/activiti?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    druid:
+      filter:
+        config:
+          enabled: true
+      initial-size: 10
+      max-active: 30
+      min-idle: 10
+      max-wait: 360
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 5
+      validation-query: select 1
+      validation-query-timeout: 1
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: update
+    show-sql: true
+  activiti:
+    check-process-definitions: true
+    process-definition-location-prefix: classpath:/processes/
+    history-level: full
+
+server:
+  port: 9090
+  context-path: /
+  tomcat:
+    uri-encoding: utf-8
+
+debug: false
+
+
+
+

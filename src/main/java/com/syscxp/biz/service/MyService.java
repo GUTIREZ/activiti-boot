@@ -2,6 +2,7 @@ package com.syscxp.biz.service;
 
 import com.syscxp.biz.entity.Person;
 import com.syscxp.biz.repository.PersonRepository;
+import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
 import org.activiti.engine.impl.cmd.CreateGroupCmd;
@@ -32,9 +33,15 @@ public class MyService {
     private TaskService taskService;
 
     @Autowired
+    private RepositoryService repositoryService;
+
+    @Autowired
     private PersonRepository personRepository;
 
     public void startProcess(String assignee) {
+
+        repositoryService.activateProcessDefinitionById();
+
 
         Person person = personRepository.findByUsername(assignee);
 

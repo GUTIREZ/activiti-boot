@@ -26,6 +26,10 @@ public class MyEventListener implements ActivitiEventListener {
                 System.out.println("A entity closed...");
                 break;
 
+            case ACTIVITY_MESSAGE_RECEIVED:
+                System.out.println("A message received...");
+                break;
+
             default:
                 System.out.println("Event received: " + event.getType());
         }

@@ -5,10 +5,6 @@
         targetNamespace="Examples">
 
     <process id="oneTaskProcess" name="The One Task Process">
-        <extensionElements>
-            <activiti:eventListener class="org.activiti.engine.test.MyEventListener" />
-            <activiti:eventListener delegateExpression="${testEventListener}" events="JOB_EXECUTION_SUCCESS,JOB_EXECUTION_FAILURE" />
-        </extensionElements>
         <startEvent id="theStart" />
         <sequenceFlow id="flow1" sourceRef="theStart" targetRef="theTask" />
         <userTask id="theTask" name="my task" activiti:assignee="${person.id}"/>

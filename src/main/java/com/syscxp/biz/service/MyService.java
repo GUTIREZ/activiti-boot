@@ -39,10 +39,6 @@ public class MyService {
     private PersonRepository personRepository;
 
     public void startProcess(String assignee) {
-
-        repositoryService.activateProcessDefinitionById();
-
-
         Person person = personRepository.findByUsername(assignee);
 
         Map<String, Object> variables = new HashMap<String, Object>();

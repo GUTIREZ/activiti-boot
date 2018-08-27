@@ -58,7 +58,7 @@ public class HireProcessTest {
     }
 
     @Test
-    public void testHappyPath() {
+    public void testHireProcess() {
 
         // Create test applicant
         Applicant applicant = new Applicant("John Doe", "john@activiti.org", "12344");

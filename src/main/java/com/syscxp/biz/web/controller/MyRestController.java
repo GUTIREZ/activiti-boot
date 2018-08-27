@@ -27,7 +27,7 @@ public class MyRestController {
     private ActivityConsumerService activityConsumerService;
 
     @RequestMapping(value="/consumer", method= RequestMethod.POST)
-    public void startconsumerInstance(@RequestBody StartProcessRepresentation startProcessRepresentation) {
+    public void startConsumerInstance(@RequestBody StartProcessRepresentation startProcessRepresentation) {
         activityConsumerService.startActivityDemo();
     }
 

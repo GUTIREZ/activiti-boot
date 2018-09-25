@@ -1,20 +1,17 @@
 package com.syscxp.biz.service.activiti.form;
 
 import com.alibaba.fastjson.JSON;
-import com.syscxp.biz.repository.PersonRepository;
 import com.syscxp.biz.service.activiti.VacationRequest.VacationRequestServiceImpl;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
 import org.activiti.engine.runtime.ProcessInstance;
-import org.activiti.engine.task.Task;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -36,8 +33,6 @@ public class FormKeyServiceImpl implements FormKeyService {
     @Autowired
     private RepositoryService repositoryService;
 
-    @Autowired
-    private PersonRepository personRepository;
 
     @Override
     public void startProcess() {

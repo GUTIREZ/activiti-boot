@@ -1,8 +1,7 @@
 package com.syscxp.biz.activiti;
 
 import com.syscxp.biz.BizApplication;
-import com.syscxp.biz.entity.Applicant;
-import com.syscxp.biz.repository.ApplicantRepository;
+import com.syscxp.biz.entity.activiti.Applicant;
 import org.activiti.engine.HistoryService;
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
@@ -40,9 +39,6 @@ public class HireProcessTest {
     @Autowired
     private HistoryService historyService;
 
-    @Autowired
-    private ApplicantRepository applicantRepository;
-
     private Wiser wiser;
 
     @Before
@@ -62,7 +58,7 @@ public class HireProcessTest {
 
         // Create test applicant
         Applicant applicant = new Applicant("John Doe", "john@activiti.org", "12344");
-        applicantRepository.save(applicant);
+//        applicantRepository.save(applicant);
 
         // Start process instance
         Map<String, Object> variables = new HashMap<String, Object>();

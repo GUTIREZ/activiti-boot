@@ -2,48 +2,316 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="777cdc2d-d41b-4fcf-a20f-6ac92c068412" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/DymaticForm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/FormKey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/activiti/VacationApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/DymaticFormController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/FormKeyController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/DymaticForm.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/FormKey.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/FormKey.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/first-step.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/second-step.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/start.form" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/ProcessEngineConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/interceptor/avtiviti/InterceptorA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/interceptor/avtiviti/InterceptorB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/listener/activiti/MyEventListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/listener/activiti/MyJobEventListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/ActivityConsumerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/ActivityConsumerServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/ResumeService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/Developer_Hiring_with_jpa.bpmn20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/FinancialReport.bpmn20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/one-task-process.bpmn20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/processes/one-task-process.bpmn20.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/dispatch/dispatch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-dynamic-from/leave-dynamic-from.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-jpa/leave-jpa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-mail/leave-mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-webservice/leave-webservice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave/leave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/timer/timerExample.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/redmine-backup.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/CoreGlobalProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/GlobalProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/GlobalPropertyDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/Spring/SpringContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigDef.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigFacade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigFacadeImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigInventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigInventoryDoc_zh_cn.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigUpdateEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigUpdateExtensionPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigVO_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigValidation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigValidatorExtensionPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/schema/GlobalConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/schema/ObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/schema/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/api/APINoSee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/api/validator/APIParam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/api/validator/EnumValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/Base_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/RespEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/constant/FileConst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/constant/SymbolConst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/DatabaseFacade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/DatabaseFacadeImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/DbGlobalProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/DeadlockAutoRestart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/GLock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/Q.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SQL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SQLBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SQLBatchWithReturn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SimpleQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SimpleQueryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/TransactionalCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/TransactionalSyncCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/UpdateQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/UpdateQueryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/config/DbConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/AbstractMysqlQuerySubQueryExtension.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/InventoryQueryDetailsGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQueryBuilderFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQueryBuilderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQueryElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQueryExtensionPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQuerySubQueryExtension.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/QueryFacade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/QueryFacadeImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/QueryResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/QueryUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/QueryableFieldsPythonWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/APIGenerateInventoryQueryDetailsMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/APIGenerateQueryableFieldsEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/APIGenerateQueryableFieldsMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/AddExpandedQueryExtensionPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/AddExtraConditionToQueryExtensionPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/AutoQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/ExpandedQueries.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/ExpandedQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/ExpandedQueryAlias.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/ExpandedQueryAliasStruct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/ExpandedQueryAliases.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/ExpandedQueryStruct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/QueryBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/QueryBuilderFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/QueryBuilderType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/QueryCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/QueryMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/QueryOp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/QueryReply.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/Queryable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/header/Unqueryable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/ESBulkBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/ESTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/GetQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/InventoryIndexManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/InventoryIndexManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/QueryBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/DeleteVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/DeleteVO_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/InsertVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/InsertVO_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/InventoryDoc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/Parent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/SearchConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/SearchIndexRecreateExtensionPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/SearchOp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/SqlTrigger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/SqlTriggers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/TriggerIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/TypeField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/UpdateVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/header/UpdateVO_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/BaseResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/EO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/ForeignKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/Index.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/KeyValueEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/NoView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/ResourceAttributes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/ShadowEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/SoftDeletionCascade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/SoftDeletionCascades.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/Uuid.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/VoAspect.aj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/enums/Authehtication/AuthError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/enums/Authehtication/TokenType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/enums/CommonStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/enums/SysError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/exception/AuthenticationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/exception/BaseException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/exception/ServiceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/exception/UsernameIsExitedException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/exception/ValidationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/CastUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/CharUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/HttpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/IDUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/JpaUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/LunarCalendarUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/Md5Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/PageUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/PropsUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/RandomUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/RegExUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/SerializableHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/SerializeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/SqlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/StringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/TimeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/TypeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/UserUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/BeanUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/CollectionDSL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/CollectionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/DebugUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/ObjectUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/StringDSL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/ArrayHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/ArraySpliter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/ArraySpliterImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/FieldPrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/FieldPrinterImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/SizeUnit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/data/StringTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/db/FieldUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/function/ForEachFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/function/Function.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/function/FunctionNoArg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/function/ListFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/gson/GsonTypeCoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/gson/GsonUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/gson/JSONObjectUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/path/PathUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/path/PathUtilImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/path/PathUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/serializable/SerializableHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldProject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldProject_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldRole_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldTracker_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomField_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomValue_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Issue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/IssueStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/IssueStatus_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Issue_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Journal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/JournalDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/JournalDetail_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Journal_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Project.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/ProjectTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/ProjectTracker_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Project_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Tracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Tracker_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Workflow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Workflow_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/businessApprove/CompleteTaskListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/businessApprove/DirectorAssignCompleteListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/businessApprove/EndListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/businessApprove/StartListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/redmine/IssueService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/DataMigration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/IssueController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/FinalReport.bpmn20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/dispatch/dispatch.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-dynamic-from/leave-dynamic-from.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-jpa/leave-jpa.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-mail/leave-mail.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave-webservice/leave-webservice.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/leave/leave.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/form/timer/timerExample.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/processes/leave-formkey.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/hello2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/tags/pagination.tag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/error/403.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/error/404.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/error/500.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/form/dynamic/dynamic-form-process-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/form/dynamic/dynamic-form-task-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/form/finished-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/form/formkey/formkey-process-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/form/formkey/formkey-task-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/form/running-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/hello.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/main/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/main/menu.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/main/welcome.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/management/database.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/management/engine-info.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/management/group-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/management/job-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/management/user-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/modeler.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/oa/leave/finished.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/oa/leave/leaveApply.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/oa/leave/running.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/oa/leave/taskList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/oa/leave/view-form.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/workflow/model-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/workflow/process-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/workflow/running-manage.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_api_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_model_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_api_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_model_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_boot_starter_basic_6_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/repository/ApplicantRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/repository/PersonRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/DymaticForm.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/DymaticForm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/FormKey.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/FormKey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/processes/second-step.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/processes/DymaticForm.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/processes/DymaticForm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/processes/FormKey.bpmn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/processes/FormKey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/processes/second-step.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.syscxp.biz.BizApplicationTests.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.syscxp.biz.activiti.HireProcessTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.syscxp.biz.BizApplicationTests.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.syscxp.biz.activiti.HireProcessTest.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz.iml" afterPath="$PROJECT_DIR$/biz.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/BizApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/BizApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/processes/Developer_Hiring_with_jpa.bpmn20.xml" afterPath="$PROJECT_DIR$/target/classes/processes/Developer_Hiring_with_jpa.bpmn20.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/MyService.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/MyRestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/VacationRequestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/Index.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/Index.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/FormKeyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/FormKeyController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/processes/FormKey.bpmn20.xml" afterPath="$PROJECT_DIR$/src/main/resources/processes/FormKey.bpmn20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/syscxp/biz/activiti/HireProcessTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/syscxp/biz/activiti/HireProcessTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/processes/FormKey.bpmn20.xml" afterPath="$PROJECT_DIR$/target/classes/processes/FormKey.bpmn20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/processes/first-step.form" afterPath="$PROJECT_DIR$/target/classes/processes/first-step.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/Applicant.java" afterPath="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/activiti/Applicant.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,6 +320,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -66,74 +337,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <file leaf-file-name="DataMigration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/DataMigration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VacationRequest.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/processes/VacationRequest.bpmn20.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeploymentsPaginateList.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-rest/6.0.0/activiti-rest-6.0.0.jar!/org/activiti/rest/service/api/repository/DeploymentsPaginateList.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeploymentResource.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-rest/6.0.0/activiti-rest-6.0.0.jar!/org/activiti/rest/service/api/repository/DeploymentResource.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1910">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeploymentResourceResource.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-rest/6.0.0/activiti-rest-6.0.0.jar!/org/activiti/rest/service/api/repository/DeploymentResourceResource.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1349">
-              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VacationRequestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/VacationRequestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VacationRequestService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="363">
+              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,11 +349,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VacationRequestServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java">
+      <file leaf-file-name="IssueController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/IssueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="145">
+              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormKeyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/FormKeyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="176" column="52" lean-forward="false" selection-start-line="176" selection-start-column="47" selection-end-line="176" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -154,19 +372,52 @@
       <file leaf-file-name="DymaticFormServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1434">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="696">
+              <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormKeyServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java">
+      <file leaf-file-name="Issue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Issue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="33">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Journal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Journal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JournalDetail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/JournalDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+              <folding>
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,6 +430,7 @@
         <option value="spring-beans.schema" />
         <option value="BpmnFile" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -188,35 +440,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pat</find>
-      <find>spring.datasource.activiti.</find>
-      <find>ProcessEngine</find>
-      <find>jpa</find>
-      <find>oneTaskProcess</find>
-      <find>SpringAuto</find>
-      <find>act_hi_actinst</find>
-      <find>this i</find>
-      <find>interceptor</find>
-      <find>createTransactionInterceptor</find>
-      <find>interce</find>
-      <find>initCommandInterceptors</find>
-      <find>pos</find>
-      <find>QueryImpl</find>
-      <find>slf4j</find>
-      <find>getCustomUserIdentityLinkExpressions</find>
-      <find>druid</find>
-      <find>6.0.0</find>
-      <find>switch</find>
-      <find>biz</find>
-      <find>create</find>
-      <find>myssql</find>
-      <find>fast</find>
-      <find>startDate</find>
-      <find>management</find>
       <find>/monitoring/strategy</find>
-      <find>mysql</find>
       <find>employeeName</find>
+      <find>diagrams</find>
+      <find>$</find>
+      <find>act_re</find>
+      <find>commons</find>
+      <find>rest</find>
+      <find>hireProcessWithJpa</find>
+      <find>page</find>
+      <find>spring-boot-starter-tomcat</find>
+      <find>ctx</find>
+      <find>getStreamELResolver</find>
+      <find>exclusion</find>
+      <find>el</find>
+      <find>javax</find>
+      <find>formKey</find>
+      <find>Task</find>
+      <find>this is a task listener</find>
+      <find>6.0.0</find>
+      <find>6.0</find>
+      <find>xml</find>
+      <find>issues</find>
+      <find>com.az</find>
+      <find>StringUtils</find>
+      <find>mysql</find>
+      <find>MySQLIntegrityConstraintViolationException</find>
+      <find>BaseDao</find>
+      <find>spring-boot-devtools</find>
+      <find>singleStart</find>
+      <find>start</find>
     </findStrings>
+    <replaceStrings>
+      <replace>com.syscxp.biz</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\workspace\java\personal\activiti-boot</dir>
     </dirStrings>
@@ -229,60 +486,65 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/DatabaseFacadeImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SQLBatch.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SQL.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/interceptor/avtiviti/InterceptorB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/AbstractProcessEngineConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/ActivitiConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/DMNEngineConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/CacheConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/processes/todo.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/listener/activiti/MyJobEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/listener/activiti/MyEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/MyService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/processes/one-task-process.bpmn20.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/processes/FinancialReport.bpmn20.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/ProcessEngineConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/QJProcess/QJCreateEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/QJProcess/QJProcessServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/QJProcess/QJEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/QJProcess/QJProcessService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/QJProcess/VacationApplicationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/QJProcess/VacationApplicationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/vo/EO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationApplication/VacationApplicationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationApplication/VacationApplicationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationApplication/VacationApplicationEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationApplication/VacationApplicationTaskListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/gson/GsonTypeCoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/RespEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/Applicant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQueryElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/QueryFacadeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/db/FieldUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/constant/FileConst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQueryBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/DatabaseFacadeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/search/InventoryIndexManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQueryExtensionPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/InventoryQueryDetailsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/SQLBatchWithReturn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/query/MysqlQuerySubQueryExtension.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/global/GlobalConfigInventory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/exception/ServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/base/BaseDao.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/activiti/VacationApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/MyRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/form/FormKeyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/DymaticForm/DymaticFormService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/DymaticForm/DymaticFormServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/form/DymaticFormController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/ActivitiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/BizApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/redmine/IssueController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Issue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/redmine/IssueService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/DymaticFormController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/FormKeyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/VacationRequestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/ActivitiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/ActivitiServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/ActivitiServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/ActivitiController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/syscxp/biz/activiti/HireProcessTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/activiti/Applicant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldProject_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomField_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Issue_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomValue_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/IssueStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldTracker_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldRole_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/JournalDetail_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Project_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/ProjectTracker_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Tracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Tracker_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Workflow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Workflow_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/IssueController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/IssueStatus_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldProject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldRole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/ProjectTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Journal_.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Journal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/JournalDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/DataMigration.java" />
       </list>
     </option>
   </component>
@@ -291,6 +553,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -316,22 +585,42 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="biz" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="biz" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-jpa:1.5.15.BUILD-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="830" />
     <option name="y" value="76" />
     <option name="width" value="734" />
     <option name="height" value="464" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -351,6 +640,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,25 +682,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="biz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="biz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -419,6 +691,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -428,6 +701,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
               <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -438,8 +731,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="VacationRequest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="redmine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biz" type="b2602c69:ProjectViewProjectNode" />
@@ -458,6 +751,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="biz" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -465,7 +769,11 @@
               <item name="activiti-boot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="redmine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biz" type="b2602c69:ProjectViewProjectNode" />
@@ -473,56 +781,60 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="processes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="nodejs_interpreter_path" value="D:/DevTool/ndoejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../github/activiti/activiti-study" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pat-dev" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="225" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.syscxp.biz.service.activiti" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\personal\activiti-boot\src\main\resources\processes" />
-      <recent name="D:\workspace\java\personal\activiti-boot\src\main\java\com\syscxp\biz" />
-      <recent name="D:\workspace\java\personal\activiti-boot" />
-      <recent name="E:\workspace\gitlab\java\syscloud\biz\src\main\resources" />
-      <recent name="E:\workspace\gitlab\java\syscloud\biz\src\main\resources\processes" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.syscxp.biz.web.controller.activiti" />
-      <recent name="com.syscxp.biz.service.activiti.form" />
-      <recent name="com.syscxp.biz.service.activiti.DymaticForm" />
-      <recent name="com.syscxp.biz.web.controller.activiti.form" />
-      <recent name="com.syscxp.biz.service.activiti.VacationRequest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\java\personal\activiti-boot\src\main\resources\processes" />
-      <recent name="D:\workspace\java\personal\activiti-boot\src\main\resources\processes\form" />
-      <recent name="D:\workspace\java\personal\activiti-boot\src\main\resources" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\resources\processes\form\formkey" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\webapp\views" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\webapp" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\resources\static\views" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.syscxp.biz.service" />
+      <recent name="com.syscxp.biz.web.controller" />
+      <recent name="com.syscxp.biz" />
+      <recent name="com.syscxp.biz.service.activiti" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.syscxp.biz.entity.redmine" />
+      <recent name="com.syscxp.biz.repository" />
+      <recent name="com.syscxp.biz.service.activiti.businessApprove" />
+      <recent name="com.syscxp.biz.web" />
+      <recent name="me.kafeitu.demo.activiti.web.workflow" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\java\com\syscxp\biz\core" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\java\com\syscxp\biz\core\enums" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\java\com\syscxp\biz\core\db" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\java\com\syscxp\biz" />
+      <recent name="D:\workspace\java\personal\activiti-boot\src\main\java\com\syscxp\biz\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -676,7 +988,17 @@
       <workItem from="1535076238408" duration="1006000" />
       <workItem from="1535333313586" duration="9096000" />
       <workItem from="1535423709106" duration="16119000" />
-      <workItem from="1535616783982" duration="16968000" />
+      <workItem from="1535616783982" duration="18867000" />
+      <workItem from="1536043369654" duration="15211000" />
+      <workItem from="1536133798734" duration="1304000" />
+      <workItem from="1536135142765" duration="10392000" />
+      <workItem from="1536199123611" duration="5180000" />
+      <workItem from="1536212432628" duration="5701000" />
+      <workItem from="1536561418951" duration="23495000" />
+      <workItem from="1537161326143" duration="23048000" />
+      <workItem from="1537429810164" duration="5616000" />
+      <workItem from="1537438333129" duration="19909000" />
+      <workItem from="1537519077215" duration="4134000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1534498354832</created>
@@ -694,47 +1016,50 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121745000" />
+    <option name="totallyTimeSpent" value="237634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.40758547" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29820627" sideWeight="0.5763889" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1474082" sideWeight="0.49250937" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25031134" sideWeight="0.44444445" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3935243" sideWeight="0.58207345" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14092873" sideWeight="0.49250937" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46326277" sideWeight="0.4236111" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25031134" sideWeight="0.44444445" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49358973" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34665227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.48076922" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26781857" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3860523" sideWeight="0.41792658" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26276463" sideWeight="0.4198718" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.24198718" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.24198718" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15331197" sideWeight="0.50749063" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2681624" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.48076922" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,358 +1084,416 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="config.getTransactionPropagation()" language="JAVA" />
-        <watch expression="processEngine" language="JAVA" />
+        <watch expression="(long)map.get(&quot;id&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/gson/GsonUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/gson/GsonTypeCoder.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/az/core/1.0.0/core-1.0.0.jar!/com/az/core/enums/SysError.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/exception/ServiceException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="122">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/RespEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/db/DatabaseFacadeImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/Applicant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/gson/JSONObjectUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/query/QueryUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/one-task-process.bpmn20.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-spring-boot-starter-basic/6.0.0/activiti-spring-boot-starter-basic-6.0.0.jar!/org/activiti/spring/integration/Activiti.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/utils/zstack/BeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="6336">
+          <caret line="208" column="8" lean-forward="false" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationApplication/VacationApplicationEventListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/core/base/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="-509">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/activiti/VacationApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.15.BUILD-SNAPSHOT/spring-boot-autoconfigure-1.5.15.BUILD-20180730.063912-33-sources.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/ActivityConsumerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1450">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/ResumeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/TaskService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/TaskServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/RuntimeServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="381" column="44" lean-forward="false" selection-start-line="381" selection-start-column="44" selection-end-line="381" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="160">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/start.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/DymaticForm.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/ActivityConsumerService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/repository/IssueRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/repository/PersonRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/repository/ApplicantRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/VacationRequestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/activiti/Applicant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/syscxp/biz/activiti/HireProcessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomField_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Issue_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/MyService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomValue_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldTracker_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldRole_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldProject_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#1113#1114#0" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
+            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="e#1200#1201#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <element signature="e#1258#1259#0" expanded="false" />
+            <element signature="e#1298#1299#0" expanded="false" />
+            <element signature="e#1330#1331#0" expanded="false" />
+            <element signature="e#1368#1369#0" expanded="false" />
+            <element signature="e#1402#1403#0" expanded="false" />
+            <element signature="e#1456#1457#0" expanded="false" />
+            <element signature="e#1502#1503#0" expanded="false" />
+            <element signature="e#1537#1538#0" expanded="false" />
+            <element signature="e#1568#1569#0" expanded="false" />
+            <element signature="e#1616#1617#0" expanded="false" />
+            <element signature="e#1656#1657#0" expanded="false" />
+            <element signature="e#1690#1691#0" expanded="false" />
+            <element signature="e#1721#1722#0" expanded="false" />
+            <element signature="e#1767#1768#0" expanded="false" />
+            <element signature="e#1801#1802#0" expanded="false" />
+            <element signature="e#1834#1835#0" expanded="false" />
+            <element signature="e#1865#1866#0" expanded="false" />
+            <element signature="e#1911#1912#0" expanded="false" />
+            <element signature="e#1951#1952#0" expanded="false" />
+            <element signature="e#1990#1991#0" expanded="false" />
+            <element signature="e#2022#2023#0" expanded="false" />
+            <element signature="e#2075#2076#0" expanded="false" />
+            <element signature="e#2117#2118#0" expanded="false" />
+            <element signature="e#2156#2157#0" expanded="false" />
+            <element signature="e#2188#2189#0" expanded="false" />
+            <element signature="e#2241#2242#0" expanded="false" />
+            <element signature="e#2283#2284#0" expanded="false" />
+            <element signature="e#2320#2321#0" expanded="false" />
+            <element signature="e#2353#2354#0" expanded="false" />
+            <element signature="e#2405#2406#0" expanded="false" />
+            <element signature="e#2449#2450#0" expanded="false" />
+            <element signature="e#2491#2492#0" expanded="false" />
+            <element signature="e#2528#2529#0" expanded="false" />
+            <element signature="e#2589#2590#0" expanded="false" />
+            <element signature="e#2641#2642#0" expanded="false" />
+            <element signature="e#2682#2683#0" expanded="false" />
+            <element signature="e#2721#2722#0" expanded="false" />
+            <element signature="e#2783#2784#0" expanded="false" />
+            <element signature="e#2839#2840#0" expanded="false" />
+            <element signature="e#2883#2884#0" expanded="false" />
+            <element signature="e#2925#2926#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#3055#3056#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Project_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/ProjectTracker_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/JournalDetail_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/MyRestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Tracker_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="81" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="158">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/interceptor/avtiviti/InterceptorA.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/redmine/IssueService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="36">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/interceptor/avtiviti/InterceptorB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Workflow_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="112">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/ProcessEngineConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/IssueStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="13">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/CacheConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/IssueStatus_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/activiti/DMNEngineConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/DymaticForm.bpmn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/runtime/ProcessInstance.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="495">
+          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/BizApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="43" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/DymaticFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#640#641#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/config/WebMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-534">
+        <state relative-caret-position="132">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/CustomFieldRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/ProjectTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Workflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1353">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Tracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Journal_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/JournalDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+          <folding>
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Journal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/entity/redmine/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/IssueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/FormKeyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="127">
+          <caret line="176" column="52" lean-forward="false" selection-start-line="176" selection-start-column="47" selection-end-line="176" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/DymaticFormServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1434">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="696">
+          <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/form/FormKeyServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/redmine/DataMigration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/ActivitiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/ActivitiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/ActivitiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-rest/6.0.0/activiti-rest-6.0.0.jar!/org/activiti/rest/service/api/repository/DeploymentResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1910">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/processes/VacationRequest.bpmn20.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-rest/6.0.0/activiti-rest-6.0.0.jar!/org/activiti/rest/service/api/repository/DeploymentsPaginateList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="363">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-rest/6.0.0/activiti-rest-6.0.0.jar!/org/activiti/rest/service/api/repository/DeploymentResourceResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1349">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/web/controller/activiti/VacationRequestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syscxp/biz/service/activiti/VacationRequest/VacationRequestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,7 +1514,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

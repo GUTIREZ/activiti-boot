@@ -1,8 +1,6 @@
 package com.syscxp.biz.service.activiti.VacationRequest;
 
 import com.alibaba.fastjson.JSON;
-import com.syscxp.biz.entity.Person;
-import com.syscxp.biz.repository.PersonRepository;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
@@ -13,7 +11,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -37,9 +34,6 @@ public class VacationRequestServiceImpl implements VacationRequestService {
 
     @Autowired
     private RepositoryService repositoryService;
-
-    @Autowired
-    private PersonRepository personRepository;
 
     @Override
     public void startProcess() {

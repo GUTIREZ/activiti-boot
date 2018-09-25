@@ -1,6 +1,5 @@
 package com.syscxp.biz.service.activiti.form;
 
-import com.syscxp.biz.repository.PersonRepository;
 import com.syscxp.biz.service.activiti.VacationRequest.VacationRequestServiceImpl;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
@@ -33,9 +32,6 @@ public class DymaticFormServiceImpl implements DymaticFormService {
 
     @Autowired
     private RepositoryService repositoryService;
-
-    @Autowired
-    private PersonRepository personRepository;
 
     @Override
     public ProcessInstance startProcess() {

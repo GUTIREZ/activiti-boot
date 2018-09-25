@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * @Author: sunxuelong.
@@ -14,20 +15,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @Description: .
  */
 @Controller
+@RequestMapping("/issues")
 public class Index {
 
+    @RequestMapping("/index")
+    public String index() {
 
-    @Autowired
-    private RepositoryService repositoryService;
-
-    @Autowired
-    private ProcessEngine processEngine;
-
-    @GetMapping("/welcome")
-    @ResponseBody
-    public String welcome() {
-
-        return "调用流程存储服务，查询部署数量："
-                + repositoryService.createDeploymentQuery().count();
+        return "hello.html";
     }
+
 }

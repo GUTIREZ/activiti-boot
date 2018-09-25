@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.98.140.122:3306/activiti?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://47.98.140.122:3306/activiti5?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
     druid:
@@ -20,13 +20,16 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      ddl-auto: update
+      ddl-auto: none
     show-sql: true
   activiti:
-    check-process-definitions: true
+    check-process-definitions: false
     process-definition-location-prefix: classpath:/processes/
     history-level: full
-
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
 server:
   port: 9090
   context-path: /

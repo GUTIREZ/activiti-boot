@@ -3,7 +3,7 @@ package com.syscxp.biz.entity.redmine;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.sql.Timestamp;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -12,7 +12,9 @@ import java.util.Date;
  * @Description: .
  */
 @Entity(name = "custom_fields")
-public class CustomField {
+public class CustomField implements Serializable {
+    private static final long serialVersionUID = -2956036835993083555L;
+
     @Id
     @Column(name = "id")
     private Long id;
@@ -21,7 +23,7 @@ public class CustomField {
     private String type;
 
     @Column(name = "name")
-    private Integer name;
+    private String name;
 
     @Column(name = "field_format")
     private String fieldFormat;
@@ -54,7 +56,7 @@ public class CustomField {
     private Boolean searchable;
 
     @Column(name = "default_value")
-    private Timestamp defaultValue;
+    private String defaultValue;
 
     @Column(name = "editable")
     private Boolean editable;
@@ -65,8 +67,8 @@ public class CustomField {
     @Column(name = "multiple")
     private Boolean multiple;
 
-    @Column(name = "format_store")
-    private String formatStore;
+//    @Column(name = "format_store")
+//    private String formatStore;
 
     @Column(name = "description")
     private String description;
@@ -87,11 +89,11 @@ public class CustomField {
         this.type = type;
     }
 
-    public Integer getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Integer name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -175,11 +177,11 @@ public class CustomField {
         this.searchable = searchable;
     }
 
-    public Timestamp getDefaultValue() {
+    public String getDefaultValue() {
         return defaultValue;
     }
 
-    public void setDefaultValue(Timestamp defaultValue) {
+    public void setDefaultValue(String defaultValue) {
         this.defaultValue = defaultValue;
     }
 
@@ -207,13 +209,13 @@ public class CustomField {
         this.multiple = multiple;
     }
 
-    public String getFormatStore() {
-        return formatStore;
-    }
-
-    public void setFormatStore(String formatStore) {
-        this.formatStore = formatStore;
-    }
+//    public String getFormatStore() {
+//        return formatStore;
+//    }
+//
+//    public void setFormatStore(String formatStore) {
+//        this.formatStore = formatStore;
+//    }
 
     public String getDescription() {
         return description;

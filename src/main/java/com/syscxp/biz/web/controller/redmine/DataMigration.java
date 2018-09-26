@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -50,8 +51,8 @@ public class DataMigration {
 
             for (Journal journal : journals) {
                 logger.info("journal id:" + journal.getId().toString() + " -- " + journal.getNotes());
-                for(JournalDetail d:journal.getJournalDetails()){
-                    if("status_id".equals(d.getPropKey()) && "1".equals(d.getOldValue())){
+                for (JournalDetail d : journal.getJournalDetails()) {
+                    if ("status_id".equals(d.getPropKey()) && "1".equals(d.getOldValue())) {
                         startProcess(journal);
                     }
                 }
@@ -61,6 +62,21 @@ public class DataMigration {
     }
 
     private void startProcess(Journal journal) {
+
+        List<CustomValue> customValues = Q.New(CustomValue.class)
+                .eq(CustomValue_.customizedId,journal.getJournalizedId())
+                .eq(CustomValue_.customizedType,"Issue")
+                .list();
+        logger.info(String.valueOf(customValues.size()));
+
+        for(CustomValue cv : customValues){
+            CustomField cf = dbf.findById(cv.getCustomFieldId(),CustomField.class);
+
+            logger.info(cf.getName());
+        }
+        Map<String, Object> variables = new HashMap<>();
+
+//        runtimeService.startProcessInstanceById("PreSaleSupport:3:16616", variables);
 
     }
 }

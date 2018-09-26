@@ -1,10 +1,7 @@
 package com.syscxp.biz.entity.redmine;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import java.sql.Timestamp;
-import java.util.Date;
+import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * @Author: sunxuelong.
@@ -12,7 +9,9 @@ import java.util.Date;
  * @Description: .
  */
 @Entity(name = "custom_values")
-public class CustomValue {
+public class CustomValue implements Serializable {
+    private static final long serialVersionUID = 1183354053276272025L;
+
     @Id
     @Column(name = "id")
     private Long id;
@@ -28,6 +27,10 @@ public class CustomValue {
 
     @Column(name = "value")
     private String value;
+
+//    @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.ALL})
+//    @JoinColumn(name = "custom_field_id", insertable = false, updatable = false)
+//    private CustomField customField;
 
     public Long getId() {
         return id;

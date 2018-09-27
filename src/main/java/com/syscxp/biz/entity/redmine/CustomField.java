@@ -32,7 +32,7 @@ public class CustomField implements Serializable {
     private String possibleValues;
 
     @Column(name = "regexpp")
-    private Date regexpp;
+    private String regexpp;
 
     @Column(name = "min_length")
     private Long minLength;
@@ -113,11 +113,11 @@ public class CustomField implements Serializable {
         this.possibleValues = possibleValues;
     }
 
-    public Date getRegexpp() {
+    public String getRegexpp() {
         return regexpp;
     }
 
-    public void setRegexpp(Date regexpp) {
+    public void setRegexpp(String regexpp) {
         this.regexpp = regexpp;
     }
 

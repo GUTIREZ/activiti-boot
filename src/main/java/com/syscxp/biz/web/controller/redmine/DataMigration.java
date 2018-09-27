@@ -41,6 +41,7 @@ public class DataMigration {
     public String startSingleProcess(@RequestBody Map map) throws Exception {
 
         Issue issue = Q.New(Issue.class).eq(Issue_.id, 1388).find();
+
         if (issue != null) {
             logger.info(issue.getSubject());
             List<Journal> journals = Q.New(Journal.class)
@@ -53,7 +54,7 @@ public class DataMigration {
                 logger.info("journal id:" + journal.getId().toString() + " -- " + journal.getNotes());
                 for (JournalDetail d : journal.getJournalDetails()) {
                     if ("status_id".equals(d.getPropKey()) && "1".equals(d.getOldValue())) {
-                        startProcess(journal);
+                        startProcess(issue,journal);
                     }
                 }
             }
@@ -61,22 +62,51 @@ public class DataMigration {
         return "ok";
     }
 
-    private void startProcess(Journal journal) {
+    private void startProcess(Issue issue,Journal journal) {
+        Map<String, Object> v = new HashMap<>();
+        v.put("subject",issue.getSubject());
+        v.put("description",issue.getDescription());
 
         List<CustomValue> customValues = Q.New(CustomValue.class)
                 .eq(CustomValue_.customizedId,journal.getJournalizedId())
                 .eq(CustomValue_.customizedType,"Issue")
                 .list();
-        logger.info(String.valueOf(customValues.size()));
-
         for(CustomValue cv : customValues){
-            CustomField cf = dbf.findById(cv.getCustomFieldId(),CustomField.class);
-
-            logger.info(cf.getName());
+            switch(Integer.valueOf(cv.getCustomField().getId().toString())){
+                case 1:
+                    v.put("pointAAddress",cv.getValue());
+                    break;
+                case 2:
+                    v.put("pointZAddress",cv.getValue());
+                    break;
+                case 3:
+                    v.put("customerName",cv.getValue());
+                    break;
+                case 4:
+                    v.put("monthlyPrice",cv.getValue());
+                    break;
+                case 5:
+                    v.put("tunnelType",cv.getValue());
+                    break;
+                case 6:
+                    v.put("bandwidth",cv.getValue());
+                    break;
+                case 7:
+                    v.put("pointAType",cv.getValue());
+                    break;
+                case 8:
+                    v.put("pointZType",cv.getValue());
+                    break;
+                case 9:
+                    v.put("contactName",cv.getValue());
+                    break;
+                default:
+                    break;
+            }
         }
-        Map<String, Object> variables = new HashMap<>();
 
-//        runtimeService.startProcessInstanceById("PreSaleSupport:3:16616", variables);
 
-    }
+        runtimeService.startProcessInstanceById("PreSaleSupport:3:16616", v);
+
+   }
 }

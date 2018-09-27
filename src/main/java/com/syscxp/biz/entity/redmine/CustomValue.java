@@ -28,9 +28,9 @@ public class CustomValue implements Serializable {
     @Column(name = "value")
     private String value;
 
-//    @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.ALL})
-//    @JoinColumn(name = "custom_field_id", insertable = false, updatable = false)
-//    private CustomField customField;
+    @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.ALL})
+    @JoinColumn(name = "custom_field_id", insertable = false, updatable = false)
+    private CustomField customField;
 
     public Long getId() {
         return id;
@@ -70,6 +70,14 @@ public class CustomValue implements Serializable {
 
     public void setValue(String value) {
         this.value = value;
+    }
+
+    public CustomField getCustomField() {
+        return customField;
+    }
+
+    public void setCustomField(CustomField customField) {
+        this.customField = customField;
     }
 }
 

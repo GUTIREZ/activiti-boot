@@ -30,6 +30,9 @@ spring:
     view:
       prefix: /views/
       suffix: .jsp
+  devtools:
+    restart:
+      exclude: static/**,public/**
 server:
   port: 9090
   context-path: /
